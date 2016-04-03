@@ -32,7 +32,7 @@ endif
 
 # Rootfs
 PRODUCT_COPY_FILES += \
-    $(COMMON_FOLDER)/init.omap4.rc:/root/init.omap4.rc
+    $(COMMON_FOLDER)/init.omap4-amazon.rc:/root/init.omap4-amazon.rc
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -106,7 +106,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     make_ext4fs \
     sdcard \
-    setup_fs \
     e2fsck \
     mkfs.f2fs \
     fsck.f2fs \
